@@ -159,16 +159,17 @@ public class MainFrame extends JFrame {
 
         //Вывод кнопок на экран
         Box hboxButtons = Box.createHorizontalBox();
-        hboxButtons.add(Box.createHorizontalGlue());
         hboxButtons.add(buttonCalc);
         hboxButtons.add(Box.createHorizontalStrut(30));
         hboxButtons.add(buttonReset);
+        hboxButtons.add(Box.createHorizontalGlue());
         hboxButtons.add(Box.createHorizontalStrut(30));
         hboxButtons.add(MC);
         hboxButtons.add(Box.createHorizontalStrut(30));
         hboxButtons.add(MPlus);
-        hboxButtons.add(Box.createHorizontalGlue());
+
         hboxButtons.setBorder(BorderFactory.createLineBorder(Color.GREEN));
+        //hboxButtons.add(Box.createHorizontalGlue());
 
         //Связать области воедино в компоновке BoxLayout
         Box contentBox = Box.createVerticalBox();
