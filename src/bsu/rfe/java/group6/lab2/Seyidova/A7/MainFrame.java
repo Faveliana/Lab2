@@ -165,6 +165,7 @@ public class MainFrame extends JFrame {
         hboxButtons.add(Box.createHorizontalGlue());
         hboxButtons.add(Box.createHorizontalStrut(30));
         hboxButtons.add(MC);
+
         hboxButtons.add(Box.createHorizontalStrut(30));
         hboxButtons.add(MPlus);
 
